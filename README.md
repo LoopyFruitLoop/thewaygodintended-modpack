@@ -1,15 +1,5 @@
 # The Way God Intended - Installation Guides
 
-### 🛠️ Client Installation Guide
-
-Follow these steps to set up your Minecraft game to connect to the server.
-
-### Prerequisites
-* **Minecraft: Java Edition**.
-* **Java 21** installed (required for Minecraft 1.21+).
-* (For 3PC users)A Minecraft launcher of your choice (e.g., Prism Launcher, CurseForge, Badlion, Modrinth).
-* (Curseforge is recommended for easy installation but not required)
-
 ## 🛠️ Client Installation (Launchers)
 
 Use this guide if you are using the **CurseForge App**, **Modrinth App**, or a launcher with an import feature (like **Prism Launcher**).
