@@ -10,33 +10,22 @@ Follow these steps to set up your Minecraft game to connect to the server.
 * (For 3PC users)A Minecraft launcher of your choice (e.g., Prism Launcher, CurseForge, Badlion, Modrinth).
 * (Curseforge is recommended for easy installation but not required)
 
-### Standard Installation Steps (3PC Users)
+## 🛠️ Client Installation (Launchers)
 
-*Note: If you are downloading the pre-packaged modpack from curseforge (or github), follow the modpack launcher's import instructions instead.*
+Use this guide if you are using the **CurseForge App**, **Modrinth App**, or a launcher with an import feature (like **Prism Launcher**).
 
-1.  **Install Fabric Loader:**
-    * Go to [fabricmc.net](https://fabricmc.net/) and download the installer.
-    * Run the installer. Select the correct Minecraft Version (**1.21** or **1.21.10** as required) and the recommended Loader version.
-    * Click "Install".
+### Prerequisites
+* **Java Version:** Java 21 is required for 1.21.10.
+* **Modpack File:** Download the `.zip` (CurseForge) or `.mrpack` (Modrinth) from the [Releases] page.
 
-2.  **Locate your Minecraft Folder:**
-    * **Windows:** `%appdata%\.minecraft`
-    * **macOS:** `~/Library/Application Support/minecraft`
-    * **Linux:** `~/.minecraft`
-
-3.  **Install Mods & Dependencies:**
-    * Open your `.minecraft` folder and locate (or create) the `mods` folder.
-    * Download the `TWGI_v*_NON3PC.zip`
-    * Copy all `.jar` files into the `mods` folder.
-    * **Crucial:** Ensure you have the exact version of **Fabric API** required by the server, or you will encounter connection errors.
-
-4.  **Install Resource Packs (Optional):**
-    * Place `.zip` resource packs into the `resourcepacks` folder.
-
-5.  **Launch the Game:**
-    * Open your Minecraft Launcher.
-    * Select the newly created profile titled "Fabric Loader [Minecraft Version]".
-    * Launch the game.
+### Steps
+1. **Import the Pack:**
+   * **CurseForge:** Click 'Create Custom Profile' -> 'Import' and select the `.zip`.
+   * **Modrinth:** Click 'Add Instance' -> 'From File' and select the `.mrpack`.
+   * **Prism:** Click 'Add Instance' -> 'Import from ZIP' and select the file.
+2. **Verify Loader:** Ensure the instance is set to **Fabric 1.21.10**. If the launcher defaults to 1.21.1, manually change the Minecraft version in the instance settings.
+3. **Memory Check:** Go to the instance settings and allocate **4GB - 6GB** of RAM.
+4. **Launch:** Start the game. The launcher will automatically download the correct Fabric loader and all required mods.
 
 ## 🖥️ Server Installation (Self-Hosted)
 
